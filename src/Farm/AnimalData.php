@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Farm\Animals;
+namespace App\Farm;
 
 class AnimalData
 {

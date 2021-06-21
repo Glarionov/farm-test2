@@ -2,7 +2,7 @@
 
 namespace App\Farm;
 
-use App\Farm\Animals\AnimalData;
+use App\Farm\AnimalData;
 use App\Farm\Animals\Cow;
 use App\Farm\Animals\Hen;
 use Exception;
@@ -55,7 +55,7 @@ class FarmEvents
                 $Hen = new Hen('id#' . $i);
                 $this->farm->addAnimal('Hen', $Hen);
             }
-            echo "Days 8-14:\n===============\n";
+            echo "\n\nDays 8-14:\n===============\n";
             $this->farm->showAmountOfAnimals();
 
             for ($i = 0; $i < 7; $i++) {

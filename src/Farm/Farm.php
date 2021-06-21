@@ -2,7 +2,7 @@
 
 namespace App\Farm;
 
-use App\Farm\Animals\AnimalData;
+use App\Farm\AnimalData;
 use App\Farm\Animals\AbstractAnimal;
 use Exception;
 
@@ -63,6 +63,7 @@ class Farm
         foreach ($this->farmAnimals as $animalData) {
             echo $animalData->name . ': ' . count($animalData->list) . "\n";
         }
+        echo "\n";
     }
 
     /**
@@ -75,5 +76,6 @@ class Farm
             echo $animalData->productionName .
                 ': ' . $animalData->produced . "\n";
         }
+        echo "\n";
     }
 }

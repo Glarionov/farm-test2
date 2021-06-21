@@ -1,0 +1,14 @@
+{
+    "name": "edmond/farm-test2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Glarionov",
+            "email": "artevy@mail.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}

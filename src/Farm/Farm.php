@@ -72,7 +72,7 @@ class Farm
     {
         echo "Produced:\n____________\n";
         foreach ($this->farmAnimals as $animalData) {
-            echo $animalData->productioName .
+            echo $animalData->productionName .
                 ': ' . $animalData->produced . "\n";
         }
     }
